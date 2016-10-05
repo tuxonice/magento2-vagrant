@@ -30,10 +30,10 @@
   action: mysql_db db=test state=absent
   become: yes
 
-- name: Create shopware db
-  mysql_db: name=shopware state=present
+- name: Create magento db
+  mysql_db: name=magento2 state=present
   become: yes
 
-- name: Create shopware db user
-  mysql_user: name=shopware password=shopware priv=shopware.*:ALL state=present
+- name: Create magento db user
+  mysql_user: name=magento password=magento priv=magento.*:ALL state=present
   become: yes
