@@ -30,7 +30,7 @@ Your machine will be available at [http://192.168.33.10/](http://192.168.33.10/)
 All required tools like the LAMP stack are already installed.
 
 - Adminer (DB-Administration): [http://192.168.33.10/adminer.php](http://192.168.33.10/adminer.php)
-- MySQL user: `root`, password: `root`
+- MySQL 5.6 user: `root`, password: `root`
 
 To SSH into the created VM:
 
@@ -92,3 +92,7 @@ SSH first into your VM:
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE) for more information.
+
+## Notes
+
+This project is based from https://github.com/shopwareLabs/shopware-vagrant clone
